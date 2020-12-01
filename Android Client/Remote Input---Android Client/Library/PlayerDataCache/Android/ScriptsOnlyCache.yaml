@@ -61,6 +61,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
     - UnityEngine.UI.ScrollRect
@@ -139,6 +140,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14380}
     - Class: 114
+      Script: {instanceID: 14402}
+    - Class: 114
       Script: {instanceID: 14466}
     - Class: 114
       Script: {instanceID: 14490}
@@ -209,6 +212,12 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
       Hash: 5f1752ed2092162f016c19510c28a8b9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -219,12 +228,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: aeb62f729c52c814dec86c47dcac1471
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
   - hash:
       serializedVersion: 2
       Hash: 499fd23433e68e265d153aa6b95d0047
@@ -563,7 +566,7 @@ ScriptsOnlyBuild:
     className: FilmGrain
   - hash:
       serializedVersion: 2
-      Hash: 33de3281c48624d750373611177a142a
+      Hash: e9539b36af987b1fc4d5169f5d2f3d29
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIs
@@ -881,7 +884,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerUIntField
   - hash:
       serializedVersion: 2
-      Hash: bb535cbed386fbf0246c814d2e49d38a
+      Hash: dfd6b2f85ee4456586c2b5a5b5c640a3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TouchPad

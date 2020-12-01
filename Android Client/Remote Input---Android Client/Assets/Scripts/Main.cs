@@ -21,6 +21,8 @@ public class Main : MonoBehaviour
 	private int LinesInSettings=10;
 	void connect()
 	{
+		if(port==-1)
+			return;
 		if(socketConnection!=null)
 		{
 			socketConnection.Close();
@@ -44,9 +46,9 @@ public class Main : MonoBehaviour
 
 		string[] settings=new string[LinesInSettings];
 		// IP
-		settings[0]="0.0.0.0";
+		settings[0]="127.0.0.1";
 		// port
-		settings[1]="0";
+		settings[1]="-1";
 		File.WriteAllLines(settingsPath,settings);
 	}
 	void WriteSettings()
@@ -68,8 +70,6 @@ public class Main : MonoBehaviour
 
 		// port
 		port=Int32.Parse(settings[1]);
-
-
 	}
 	void Start()
 	{
